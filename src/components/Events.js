@@ -7,7 +7,6 @@ const Events = () => {
     const {state} = useContext(AppContext)
     return(
     <>
-        <div>{value}</div>
         <h4>イベント一覧</h4>
         <table className="table table-hober">
           <thead>
