@@ -34,8 +34,6 @@ const EventForm = () => {
       setTitle('')
       setBody('')
     }
-      
-    console.log({state})
     const deleteAllEvents = e => {
       e.preventDefault()
       const result = window.confirm('全てのイベントを本当に削除しても良いですか')
